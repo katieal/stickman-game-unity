@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TabbedMenuStyle.uss?fileID=7433441132597879392&amp;guid=f9ea77c4363ce74439e05ccc9ce248b0&amp;type=3#TabbedMenuStyle" />
+    <engine:TabView focusable="false" name="MainTabView" view-data-key="TabbedMenu">
+        <engine:Tab label="Equipment" name="EquipmentTab" closeable="false" view-data-key="EquipmentTab" class="tab-content">
+            <engine:Label text="Label in equipment tab." class="tab-content" />
+        </engine:Tab>
+        <engine:Tab label="Inventory" name="MaterialsTab" view-data-key="MaterialsTab" tabindex="1" enabled="true" class="tab-content">
+            <engine:Label text="Label in material inventoy tab" class="tab-content" />
+        </engine:Tab>
+    </engine:TabView>
+</engine:UXML>

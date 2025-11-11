@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fac4bc6635a9649835c1628c9110ae, type: 3}
+  m_Name: SlimeSettingsSO
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Description: Settings for slimes
+  <MoveSpeed>k__BackingField: 1
+  <MaxHealth>k__BackingField: 50
+  <AttackSpeed>k__BackingField: 1
+  <Knockback>k__BackingField: {x: 10, y: 0}
+  <StaggerSeconds>k__BackingField: 0.5
+  MobType: 1
+  <IsStaggeredWhenHit>k__BackingField: 1
+  <LootTable>k__BackingField:
+    Loot:
+    - Item: {fileID: 11400000, guid: 6285faf4fc535e24ca0d3e85f99cf81a, type: 2}
+      DropChances:
+      - Quantity: 1
+        DropRange: {x: 0, y: 100}
+        Min: 0
+        Max: 100
+    Special: []
+  <Abilities>k__BackingField:
+  - <Id>k__BackingField: MeleAbilitySO
+    <AbilityIndex>k__BackingField: 0

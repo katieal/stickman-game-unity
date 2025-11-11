@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2670814c9dd6945b73e0d255a2ffc4, type: 3}
+  m_Name: LoadSaveFileEvent
+  m_EditorClassIdentifier: Assembly-CSharp::EventChannel.SaveFileDataEventSO
+  Description: 'invoke to load savefiledata to current session
+
+    Must change game
+    state to start state before invoking'
+  InvokedBy:
+  - SaveManager
+  Listeners:
+  - GameSM StartState
+  InvokeWith: SaveFileData data

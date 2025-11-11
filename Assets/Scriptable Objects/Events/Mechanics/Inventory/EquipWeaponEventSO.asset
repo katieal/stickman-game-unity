@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1136540f87a6eab40b19725cb2999bca, type: 3}
+  m_Name: EquipWeaponEventSO
+  m_EditorClassIdentifier: 
+  Description: "Invoke to equip or unequip the corresponding equipped weapon. \n\nIf
+    shouldEquip = true, weapon will be switched to the weaponbelt and any preexisting
+    weapon will be moved to inventory.\nIf shouldEquip = false, weapon will be removed
+    from weaponBelt and added back to the inventory. Only works if there is room
+    in the inventory.\n\n_weaponEquipped event will be sent after."
+  InvokedBy:
+  - InventoryMenu
+  Listeners:
+  - Inventory
+  InvokeWith: '(int weaponIndex, bool shouldEquip) '

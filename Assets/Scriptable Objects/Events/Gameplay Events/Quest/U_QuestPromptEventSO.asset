@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43eb210b93081f47bba91ea925a3bd4, type: 3}
+  m_Name: U_QuestPromptEventSO
+  m_EditorClassIdentifier: 
+  Description: invoke to show user a window with quest prompt
+  TaskSource: QuestPromptWindow
+  StartInvokedBy:
+  - QuestManager
+  OnStartListeners:
+  - QuestPromptWindow
+  ResultListeners:
+  - QuestManager
+  InvokeStartWith: QuestData displayData
+  InvokeResultWith: bool isQuestAccepted

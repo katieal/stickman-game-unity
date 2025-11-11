@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538604c1e63e35b48934109c83ea6a14, type: 3}
+  m_Name: U_DayTimeoutEventSO
+  m_EditorClassIdentifier: Assembly-CSharp::EventChannel.VoidUniTaskEventSO
+  Description: Invoked when in game time reaches the end of the day
+  TaskSource: SceneEffectsManager
+  StartInvokedBy:
+  - TimeManager
+  OnStartListeners:
+  - SceneEffectsManager
+  ResultListeners: []

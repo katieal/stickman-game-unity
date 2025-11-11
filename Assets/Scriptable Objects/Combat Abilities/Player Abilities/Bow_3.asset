@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 444292fc426b5224c81f53b601b480be, type: 3}
+  m_Name: Bow_3
+  m_EditorClassIdentifier: Assembly-CSharp::Combat.AbilitySettingsSO
+  DisplayName: Power Shot
+  AbilityType: 1
+  AnimationTrigger: 
+  HasCastAnimation: 1
+  CastAnimationTrigger: Attack
+  AttackDelay: 0
+  ManaCost: 0
+  CooldownSeconds: 30
+  Damage: 10
+  KnockbackMultiplier: 1
+  StunSeconds: 0
+  IsSingleTarget: 0
+  ProjectileName: Arrow
+  Velocity: 10
+  Health: 0
+  Mana: 0
+  Armor: 0
+  Speed: 0

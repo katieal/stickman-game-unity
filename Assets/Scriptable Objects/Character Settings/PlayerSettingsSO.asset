@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727bbd9d7c60aee48a30817ede3fbddc, type: 3}
+  m_Name: PlayerSettingsSO
+  m_EditorClassIdentifier: Assembly-CSharp::Characters.PlayerSettingsSO
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <DefaultAbilities>k__BackingField
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Items.WeaponType, Assembly-CSharp],[Combat.AbilitySelectionPlayer[],
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Items.WeaponType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|Combat.AbilitySelectionPlayer[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Sword_0
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Sword_1
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Sword_2
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Sword_3
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|Combat.AbilitySelectionPlayer[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Bow_0
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Bow_1
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Bow_2
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Bow_3
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 4|Combat.AbilitySelectionPlayer[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Staff_0
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Staff_1
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Staff_2
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: Combat.AbilitySelectionPlayer, Assembly-CSharp
+    - Name: <Id>k__BackingField
+      Entry: 1
+      Data: Staff_3
+    - Name: <AbilityIndex>k__BackingField
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Description: 
+  <MoveSpeed>k__BackingField: 5
+  <MaxHealth>k__BackingField: 100
+  <AttackSpeed>k__BackingField: 2
+  <Knockback>k__BackingField: {x: 10, y: 0}
+  <StaggerSeconds>k__BackingField: 0.2
+  <MaxMana>k__BackingField: 100

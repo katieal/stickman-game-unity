@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7db9b48467535f45b74cd32045354ca, type: 3}
+  m_Name: StorekeeperQuestline1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: d13cdda19f9f4fb45ba1966a65480449, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Guid
+      Entry: 2
+      Data: 5f4315516735467695879320b485b729
+    - Name: Quests
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Characters.Quests.Quest, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Characters.Quests.Quest, Assembly-CSharp
+    - Name: QuestlineName
+      Entry: 1
+      Data: Storekeeper's Request
+    - Name: Name
+      Entry: 1
+      Data: Friendship Trouble
+    - Name: Guid
+      Entry: 2
+      Data: 56bec8a17a7c465fa4d47e92bb37cf50
+    - Name: QuestOrder
+      Entry: 3
+      Data: 0
+    - Name: Description
+      Entry: 1
+      Data: Help the Innkeeper and the Storekeeper reconcile.
+    - Name: Conditions
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Characters.Quests.IQuestCondition,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Characters.Quests.DayCondition, Assembly-CSharp
+    - Name: StartDay
+      Entry: 3
+      Data: 1
+    - Name: EndDay
+      Entry: 3
+      Data: -1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Status
+      Entry: 3
+      Data: 0
+    - Name: Missions
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Characters.Quests.IQuestMission,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 5|Characters.Quests.KeyMission, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: storekeeper_quest1
+    - Name: MissionString
+      Entry: 1
+      Data: Talk to the Innkeeper
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Rewards
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Characters.Quests.QuestReward, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Characters.Quests.QuestReward, Assembly-CSharp
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: Item
+      Entry: 7
+      Data: ItemData.ItemEntry, Assembly-CSharp
+    - Name: ItemSO
+      Entry: 10
+      Data: 0
+    - Name: Quantity
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Money
+      Entry: 3
+      Data: 0
+    - Name: ExperienceAmount
+      Entry: 3
+      Data: 0
+    - Name: Skill
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Conversation
+      Entry: 1
+      Data: Storekeeper/Questline1
+    - Name: OnPrompt
+      Entry: 3
+      Data: 2
+    - Name: OnAccept
+      Entry: 3
+      Data: 10
+    - Name: OnReject
+      Entry: 3
+      Data: 13
+    - Name: OnCheckin
+      Entry: 3
+      Data: 15
+    - Name: OnComplete
+      Entry: 3
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Characters.Quests.Quest, Assembly-CSharp
+    - Name: QuestlineName
+      Entry: 1
+      Data: Storekeeper's Request
+    - Name: Name
+      Entry: 1
+      Data: Party Time
+    - Name: Guid
+      Entry: 2
+      Data: ae20177c90ad461cb5f3f08524292571
+    - Name: QuestOrder
+      Entry: 3
+      Data: 1
+    - Name: Description
+      Entry: 1
+      Data: Invite guests to the Storekeeper's party.
+    - Name: Conditions
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[Characters.Quests.IQuestCondition,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 9|Characters.Quests.SequentialCondition, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Status
+      Entry: 3
+      Data: 0
+    - Name: Missions
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[Characters.Quests.IQuestMission,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 11|Characters.Quests.KeyMission, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: storekeeper_party1
+    - Name: MissionString
+      Entry: 1
+      Data: Invite the Innkeeper
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Characters.Quests.KeyMission, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: storekeeper_party2
+    - Name: MissionString
+      Entry: 1
+      Data: Invite Eomri
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Rewards
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[Characters.Quests.QuestReward,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: Characters.Quests.QuestReward, Assembly-CSharp
+    - Name: Type
+      Entry: 3
+      Data: 1
+    - Name: Item
+      Entry: 7
+      Data: ItemData.ItemEntry, Assembly-CSharp
+    - Name: ItemSO
+      Entry: 6
+      Data: 
+    - Name: Quantity
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Money
+      Entry: 3
+      Data: 100
+    - Name: ExperienceAmount
+      Entry: 3
+      Data: 0
+    - Name: Skill
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Conversation
+      Entry: 6
+      Data: 
+    - Name: OnPrompt
+      Entry: 3
+      Data: 0
+    - Name: OnAccept
+      Entry: 3
+      Data: 0
+    - Name: OnReject
+      Entry: 3
+      Data: 0
+    - Name: OnCheckin
+      Entry: 3
+      Data: 0
+    - Name: OnComplete
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Source: Storekeeper
+  Name: Storekeeper's Request
+  Description: 
+  Status: 0
+  CurrentIndex: 0
+  Conversation: Storekeeper/Questline1
+  QuestNumber: 1
+  OnPrompt: 2
+  OnAccept: 10
+  OnReject: 13
+  OnCheckin: 15
+  OnComplete: 17
